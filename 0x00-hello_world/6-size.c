@@ -1,4 +1,11 @@
 #include <stdio.h>
+
+/*
+ * main - Prints size of characters
+ *
+ * returns: returns 0 always
+ */
+
 int main(void)
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
