@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- * main - THe main is the body of the code
+/**
+ * main - The main is the body of the code
  * Return: returns an integer value
  */
 
