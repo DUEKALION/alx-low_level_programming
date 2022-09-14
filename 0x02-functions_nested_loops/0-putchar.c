@@ -8,11 +8,15 @@
 
 int main(void)
 {
-  int c;
+ 
+  char c[8] = "_putchar";
+  int i=0;
 
-  while ((c = getchar()) != EOF) {
-      putchar(c);
-      printf("\n");
+  while(i<8) {
+    putchar(c[i]);
+  i++;
   }
+  putchar('\n');
+  
 	return (0);
 }
