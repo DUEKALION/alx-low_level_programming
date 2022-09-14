@@ -10,9 +10,9 @@ int main(void)
 {
   int c;
 
-  while ((c = getchar()) != EOF)
+  while ((c = getchar()) != EOF) {
       putchar(c);
       printf("\n");
-
+  }
 	return (0);
 }
