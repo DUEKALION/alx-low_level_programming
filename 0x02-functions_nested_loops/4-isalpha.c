@@ -2,7 +2,8 @@
 
 /**
  * _isalpha - check description
- * Description: function returns 1 if the character is a letter, lowercase or uppercase.
+ * @c: An input character
+ * Description: function returns 1 if the character is a letter.
  * Return: 1 or 0 in otherwise.
  */
 int _isalpha(int c)
@@ -14,7 +15,7 @@ int _isalpha(int c)
 	{
 		for (upper = 'A'; upper <= 'Z'; upper++)
 		{
-			if(c == lower || c == upper)
+			if (c == lower || c == upper)
 				isletter = 1;
 		}
 	}
