@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check Description
+ * print_numbers - check Description
  * Description: A function that prints 0 to 9 followed by newline
  * Return: Always 0.
  */
